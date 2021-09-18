@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="BookingTickets.css"/>
+    <title>Booking Tickets</title>
+</head>
+<body>
+    <div class="movie-container">
+        <label>Select Movie :</label>
+        <select name="" id="movie">
+            <option value="150">Low Season สุขสันต์วันโสด | ฿150</option>
+            <option value="200">Ghost in the shell | ฿200</option>
+            <option value="300">The conjuring 3 | ฿300</option>
+        </select>
+    </div>
+    <ul class="showcase">
+        <li>
+            <div class="seat"></div>
+            <small>Emtpy</small>
+        </li>
+        <li>
+            <div class="seat selected"></div>
+            <small>Your</small>
+        </li>
+        <li>
+            <div class="seat occupied"></div>
+            <small>Booked</small>
+        </li>
+    </ul>
+    <div class="container">
+        <div class="screen"></div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+    </div>
+    <p class="text">Selected :
+        <span id="count">0</span> Seats
+        Total : <span id="total">0</span> Bath
+    </p>
+
+    <script src="BookingTickets.js"></script>
+</body>
+</html>
